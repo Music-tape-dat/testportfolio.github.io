@@ -20,7 +20,7 @@ html {
 
 /* SCROLL SNAP */
 html {
-  scroll-snap-type: y proximity;
+  /* scroll-snap-type: y proximity; */
   scroll-behavior: smooth;
 }
 
@@ -42,7 +42,7 @@ section {
 }
 
 .bottom-sections section {
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .return-home-ar {
