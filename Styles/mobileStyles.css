@@ -8,6 +8,10 @@
     display: none;
   } */
 
+  .return-home-ar img {
+    width: 10vw;
+  }
+
   /* NAVIGATION MENU */
   .mobile-nav-bar {
     display: flex;
@@ -121,27 +125,27 @@
   }
 
   .hero-main-title {
-    font-size: 20vw;
+    font-size: 23vw;
   }
 
   .hero-sub-title {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .hero-engage-btns button {
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 0.8vh 3vw;
     margin-right: 2vw;
   }
 
   .hero-social-links {
-    bottom: 5%;
+    bottom: 10%;
     width: 64vw;
     display: flex;
   }
 
   .hero-social-icon {
-    width: 5vw;
+    width: 8vw;
   }
 
   /* PAGINATION */
@@ -159,7 +163,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 8vw;
+    font-size: 10vw;
     color: var(--black-main);
     font-weight: 400;
     transition: transform 0.5s;
@@ -175,30 +179,33 @@
   }
 
   .about-me-top-left-profile-img {
-    width: 15vw;
+    width: 20vw;
   }
 
   .about-me-title {
-    font-size: 6vw;
+    font-size: 8vw;
   }
 
   .about-me-sub-title {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   .about-me-description {
     max-width: 80vw;
     /* margin: auto; */
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
+  /* PROJECTS SECTION */
+
+  /* SKILLS SECTION */
   .skills-content {
     width: 85vw;
     top: 15vh;
     left: 50%;
     transform: translate(-50%, 0);
     flex-direction: column;
-    font-size: 3vw;
+    font-size: 5vw;
     font-family: var(--font-main);
     font-weight: 400;
   }
@@ -209,13 +216,14 @@
 
   .skills-content-left-title,
   .skills-content-right-title {
-    font-size: 7vw;
+    /* margin-top: 20px; */
+    font-size: 10vw;
   }
 
   .skills-content-left-skills-left img,
   .skills-content-left-skills-right img,
   .skills-content-right-skills img {
-    width: 4vw;
+    width: 7vw;
   }
 
   .skills-content-left-skills-left div,
