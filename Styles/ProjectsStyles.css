@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+.swiper-wrapper {
+  background: var(--white-main);
+  box-shadow: 0px 4px 18px 1px rgba(0, 0, 0, 0.25);
+  width: 53vw;
+  height: 56.8vh;
+  position: absolute;
+  top: 20vh;
+  left: 38vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.swiper-project-case-study-btn {
+  color: var(--black-main);
+  font-family: var(--font-main);
+  border: 1px solid var(--black-main);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: 200ms;
+  z-index: 11;
+  font-weight: bold;
+  font-size: 1.04vw;
+  padding: 0.4vh 1.3vw;
+}
+
+.swiper-project-case-study-btn:hover {
+  color: var(--white-main);
+  background-color: var(--black-main);
+}
+
+.slider-handle-btn-wrap {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: space-around;
+  width: 6.3vw;
+  /* height: 7vh; */
+}
+
+.slider-next-btn {
+  top: 0;
+  right: 0;
+  /* background-image: url("../Assets/next slider.png"); */
+}
+
+.slider-prev-btn {
+  top: 0;
+  left: 0;
+  /* background-image: url("../Assets/prev slider.png"); */
+}
+
+.slider-next-btn,
+.slider-prev-btn {
+  position: absolute;
+  /* height: 100%; */
+  width: 40%;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.slider-prev-btn:hover {
+  /* background-image: url("../Assets/prev slider hovered.png"); */
+}
+
+.slider-next-btn:hover {
+  /* background-image: url("../Assets/next slider hovered.png"); */
+}
+
+.swiper-project-img {
+  width: 20.8vw;
+  transition: 400ms ease-out;
+  position: absolute;
+}
+
+/* project imgs positions */
+#mp {
+  width: 40vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  z-index: 10;
+  opacity: 1;
+}
+
+#lp2,
+#lp1 {
+  top: 50%;
+  left: 0%;
+  transform: translate(-10%, -50%);
+}
+
+#rp1,
+#rp2 {
+  top: 50%;
+  right: 0%;
+  transform: translate(10%, -50%);
+}
+
+/* project imgs opacity and size*/
+#lp1,
+#rp1 {
+  opacity: 0.6;
+}
+
+#lp2,
+#rp2 {
+  transform: scale(0);
+  opacity: 0;
+}
+
+/* .swiper-imgs-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+} */

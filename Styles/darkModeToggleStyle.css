@@ -1,0 +1,40 @@
+.switch-container {
+  display: flex;
+}
+
+.switch {
+  display: inline-block;
+  background-color: #888888;
+  width: 60px;
+  height: 34px;
+  position: relative;
+  border-radius: 17px;
+}
+
+.switch::before {
+  top: 2px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  transition: 300ms;
+}
+
+.switch::before {
+  background-image: url("../Assets/light-mode.png");
+  background-size: cover;
+  cursor: pointer;
+  /* background-color: white; */
+  left: 2px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .switch::before {
+  transform: translateX(26px);
+  background-image: url("../Assets/night-mode.png");
+  /* background-color: #1a1919; */
+}

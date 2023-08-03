@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.swiper-project-case-study-btn {
+  color: var(--black-main);
+  font-family: var(--font-main);
+  border: 1px solid var(--black-main);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: 200ms;
+  z-index: 11;
+  font-weight: bold;
+  font-size: 1.04vw;
+  padding: 0.4vh 1.3vw;
+}
+
+.swiper-project-case-study-btn:hover {
+  color: var(--white-main);
+  background-color: var(--black-main);
+}
+
+.slider-handle-btn-wrap {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: space-around;
+  width: 6.3vw;
+}
+
+.slider-next-btn {
+  top: 0;
+  right: 0;
+}
+
+.slider-prev-btn {
+  top: 0;
+  left: 0;
+}
+
+.slider-next-btn,
+.slider-prev-btn {
+  position: absolute;
+  width: 40%;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+/* project imgs positions */
+#mp {
+  /* width: 40vw; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 10;
+  opacity: 1;
+}
+
+#lp2,
+#lp1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(10%, -50%);
+}
+
+#rp1,
+#rp2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+
+/* project imgs opacity and size*/
+#lp1,
+#rp1 {
+  opacity: 0.6;
+}
+
+#lp2,
+#rp2 {
+  transform: scale(0);
+  opacity: 0.6;
+}
+
+.swiper-wrapper {
+  background: var(--white-main);
+  box-shadow: 0px 4px 18px 1px rgba(0, 0, 0, 0.25);
+  width: 53vw;
+  height: 56.8vh;
+  position: absolute;
+  top: 20vh;
+  left: 38vw;
+}
+
+.slider-imgs-container-outer {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-img-wrap {
+  position: absolute;
+  height: 30vh;
+  /* height: 41.6vh; */
+  aspect-ratio: 10/9;
+  transition: 400ms ease-out;
+  overflow: hidden;
+}
+
+#mp:hover {
+  cursor: pointer;
+  aspect-ratio: 16/9;
+}
+
+.swiper-project-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+
+.slider-project-name {
+  font-family: var(--font-main);
+  color: var(--black-main);
+
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+/* used technologies */
+.slider-project-technologies {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, 0%);
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.tech-img {
+  width: 2vw;
+}
+
+.tech-name {
+  font-family: var(--font-main);
+  opacity: 0.8;
+  color: var(--black-main);
+}

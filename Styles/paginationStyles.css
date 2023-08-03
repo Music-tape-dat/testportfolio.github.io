@@ -1,0 +1,73 @@
+.pagination-wrapper {
+  position: absolute;
+  top: 30.8vh;
+  left: 10vw;
+  z-index: 10;
+  display: flex;
+  height: 49.5vh;
+}
+
+.pagination-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pagination-text {
+  font-family: "League Gothic", sans-serif;
+  font-size: 4.4vw;
+  font-weight: 400;
+  /* transform: translateY(135px); */
+  transition: transform 0.5s;
+  opacity: 1;
+  color: var(--black-main);
+  display: inline-block;
+}
+
+.pagination-right {
+  margin-left: 10px;
+
+  position: relative;
+  width: 0.7vw;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-progress-bar {
+  height: 100%;
+  width: 3px;
+  background-color: var(--green-secondary);
+  opacity: 0.48;
+  border-radius: 5px;
+  /* margin-left: 10px; */
+}
+
+.pagination-page-dots {
+  position: absolute;
+  top: 0;
+  /* left: -10%; */
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.page-dot {
+  width: 0.7vw;
+  height: 0.7vw;
+  background-color: var(--green-secondary);
+  border-radius: 50%;
+  opacity: 0.9;
+  z-index: 10;
+  transition: 0.3s;
+  cursor: pointer;
+  transform-origin: center;
+}
+
+.active-dot {
+  opacity: 1;
+  transform: scale(1.2);
+  background-color: var(--green-main);
+}

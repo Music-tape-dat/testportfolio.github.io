@@ -1,0 +1,84 @@
+/* CONTACT ME SECTION */
+
+.contact-me-content {
+  position: absolute;
+  top: 30.8vh;
+  left: 40vw;
+  width: 25vw;
+}
+
+.contact-me-title {
+  font-family: var(--font-main);
+  color: var(--black-main);
+  font-weight: 700;
+  font-size: 2.8vw;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11vh;
+}
+
+.contact-form-input-wrap {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contact-form-input-wrap input,
+.contact-form-input-wrap textarea {
+  height: 4.6vh;
+  font-size: 1vw;
+  font-family: var(--font-main);
+  color: var(--black-main);
+}
+
+.contact-form-input-wrap input,
+.contact-form-input-wrap textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #1d1d1d28;
+  background-color: transparent;
+}
+
+.contact-form-input-wrap input:focus,
+.contact-form-input-wrap textarea:focus {
+  outline: none;
+}
+
+.contact-form-input-wrap .underline:before {
+  position: absolute;
+  z-index: 10;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: var(--green-secondary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+input:focus ~ .underline:before,
+textarea:focus ~ .underline:before {
+  transform: scale(1);
+}
+
+.form-submit {
+  font-family: var(--font-main);
+  font-weight: bold;
+  font-size: 1.04vw;
+  padding: 0.4vh 1.3vw;
+  transition: 200ms;
+  margin-right: 1.04vw;
+  cursor: pointer;
+  color: var(--green-main);
+  background-color: var(--white-main);
+  border: 1px solid var(--green-main);
+}
+
+.form-submit:hover {
+  background-color: var(--green-main);
+  color: var(--white-main);
+}
