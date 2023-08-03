@@ -171,6 +171,10 @@
     min-width: 30vw;
   }
 
+  #mobile-pagination-contact-me {
+    font-size: 8vw;
+  }
+
   .about-me-content {
     width: 85vw;
     top: 20vh;
@@ -196,8 +200,6 @@
     font-size: 4vw;
   }
 
-  /* PROJECTS SECTION */
-
   /* SKILLS SECTION */
   .skills-content {
     width: 85vw;
@@ -216,7 +218,6 @@
 
   .skills-content-left-title,
   .skills-content-right-title {
-    /* margin-top: 20px; */
     font-size: 10vw;
   }
 
@@ -230,6 +231,32 @@
   .skills-content-left-skills-right div,
   .skills-content-right-skills div {
     margin-bottom: 5px;
+  }
+
+  /* PROJECTS SECTION */
+  .swiper-wrapper {
+    width: 85vw;
+    /* aspect-ratio: 16/9; */
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .slider-project-name {
+    font-size: 6vw;
+  }
+
+  .tech-img {
+    width: 5vw;
+    aspect-ratio: 1;
+  }
+
+  .swiper-project-case-study-btn {
+    font-size: 4vw;
+  }
+
+  .slider-handle-btn-wrap {
+    width: 30vw;
   }
 
   /* CONTACT ME SECTION */
